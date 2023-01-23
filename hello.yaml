@@ -1,0 +1,21 @@
+# key : value pair
+
+"apple" : "I am a red fruit."
+1 : "This is kunal's roll number."
+--- # document end here
+# lists
+- apple
+- mango
+- banana
+- Apple
+--- # document ends here
+#block
+cities :
+ - new delhi
+ - mumbai
+ - gujrat
+--- # document ends here
+cities : [new delhi, mumbai, gujrat]
+--- # document ends here
+{mango : "yellow fruit", age : 60}
+... # end of YAML file.

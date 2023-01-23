@@ -1,0 +1,32 @@
+# String variables
+
+name : Kunal Kushwaha
+fruit : "apple"
+job : 'swe'
+
+bio : |
+Hey my name is Kunal Kushwaha.
+I am a cool dude.
+
+# write a single line in multiple lines
+message : >
+this will be
+treated as
+one single line.
+
+# same as
+message : this will be treated as one single line.
+
+# Integer variable
+number : 1234
+
+# Float variable
+marks : 23.99
+
+# Boolean variable
+booleanValue : No # n, N, false, False, FALSE
+# same for true -> yes, y, Y, TRUE
+
+# specify the type
+
+
