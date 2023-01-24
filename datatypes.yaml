@@ -28,5 +28,30 @@ booleanValue : No # n, N, false, False, FALSE
 # same for true -> yes, y, Y, TRUE
 
 # specify the type
+zero : !!int 0
+positiveNum : !!int 45
+negativeNum : !!int -45
+binaryNum : !!int 0b11001
+octaNum : !!int 06574
+hexa : !!int 0x45
+commaValue : !!int +540_000 # 540,000
+exponentialNumbers : 6.023E56
 
+#floating point numbers
+marks : !!float 56.89
+infinite : !!float .inf
+not a num : .nan
+
+booleanValue : !!bool No
+
+stringValue : !!str Hi
+
+#null
+surname : !!null Null # or null NULL ~
+~ : this is a null key
+
+#dates and time
+date : !!timestamp 2002-02-25
+india time : 2001-12-15T02:59:43.10 +5:30
+india time : 2001-12-15T02:59:43.10
 
